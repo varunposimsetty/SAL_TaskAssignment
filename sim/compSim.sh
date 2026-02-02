@@ -9,6 +9,7 @@ mkdir -p $WORK_DIR
 # importing source files
 ghdl -i $STD --workdir=$WORK_DIR ../global/TaskGlobalPackage.vhd
 ghdl -i $STD --workdir=$WORK_DIR ../src/mac_unit.vhd
+ghdl -i $STD --workdir=$WORK_DIR ../src/register_map.vhd
 ghdl -i $STD --workdir=$WORK_DIR ./tb_mac_unit.vhd
 
 # building simulation files

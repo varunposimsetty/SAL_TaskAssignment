@@ -41,7 +41,7 @@ begin
             DATA_WIDTH => DATA_WIDTH,
             LENGTH     => LENGTH,
         )
-        port(
+        port map(
             i_clk       => i_clk,
             i_nrst_sync => i_nrst,
             i_start     => start,
