@@ -53,6 +53,8 @@ begin
         wait for 20 ns;
         vecA(1) <= x"0A";
         wait for 20 ns;
+        vecB(1) <= x"01";
+        wait for 60 ns;
         rst <= '0';
         wait for 100 ns;
         rst <= '1';

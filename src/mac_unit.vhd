@@ -41,13 +41,14 @@ begin
     begin 
         if(rising_edge(i_clk)) then 
             if(i_nrst_sync = '0') then 
-                prod_r <= (others => (others => '0'));
-                sum_r  <= (others => (others => '0'));
-                res_r  <= (others => '0');
+                prod_r      <= (others => (others => '0'));
+                sum_r       <= (others => (others => '0'));
+                res_r       <= (others => '0');
                 start_shift <= (others => '0');
-                prod_next := (others => (others => '0'));
-                res_next :=  (others => '0');
-                sum_next := (others => (others => '0'));
+                prod_next   := (others => (others => '0'));
+                res_next    := (others => '0');
+                sum_next    := (others => (others => '0'));
+                idx         := 0;
             else 
                 start_shift <= start_shift(1 downto 0) & i_start;
                 prod_next := prod_r;
