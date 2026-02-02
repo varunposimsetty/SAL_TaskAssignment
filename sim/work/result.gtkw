@@ -1,28 +1,29 @@
 [*]
 [*] GTKWave Analyzer v3.3.124 (w)1999-2025 BSI
-[*] Sun Feb  1 19:29:07 2026
+[*] Mon Feb  2 07:06:34 2026
 [*]
 [dumpfile] "/Users/varunposimsetty/Desktop/SAL_TaskAssignment/sim/work/result.ghw"
-[dumpfile_mtime] "Sun Feb  1 19:21:57 2026"
-[dumpfile_size] 7002096
+[dumpfile_mtime] "Mon Feb  2 07:06:19 2026"
+[dumpfile_size] 1401609
 [savefile] "/Users/varunposimsetty/Desktop/SAL_TaskAssignment/sim/work/result.gtkw"
 [timestart] 0
-[size] 1472 920
-[pos] -1 -2
-*-24.876181 300000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[size] 1472 832
+[pos] -1 -1
+*-26.876181 103000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] top.
 [treeopen] top.tb.
 [treeopen] top.tb.dut.
 [sst_width] 255
 [signals_width] 198
 [sst_expanded] 1
-[sst_vpaned_height] 303
+[sst_vpaned_height] 386
 @200
 -MAC_UNIT
 -Input
 @28
 top.tb.dut.i_clk
 top.tb.dut.i_nrst_sync
+top.tb.dut.i_start
 @200
 -vectorA
 @22
@@ -37,6 +38,10 @@ top.tb.dut.i_nrst_sync
 #{top.tb.vecb[1][7:0]} top.tb.vecb[1][7] top.tb.vecb[1][6] top.tb.vecb[1][5] top.tb.vecb[1][4] top.tb.vecb[1][3] top.tb.vecb[1][2] top.tb.vecb[1][1] top.tb.vecb[1][0]
 #{top.tb.vecb[2][7:0]} top.tb.vecb[2][7] top.tb.vecb[2][6] top.tb.vecb[2][5] top.tb.vecb[2][4] top.tb.vecb[2][3] top.tb.vecb[2][2] top.tb.vecb[2][1] top.tb.vecb[2][0]
 #{top.tb.vecb[3][7:0]} top.tb.vecb[3][7] top.tb.vecb[3][6] top.tb.vecb[3][5] top.tb.vecb[3][4] top.tb.vecb[3][3] top.tb.vecb[3][2] top.tb.vecb[3][1] top.tb.vecb[3][0]
+@200
+-start_shift
+@28
+#{top.tb.dut.start_shift[2:0]} top.tb.dut.start_shift[2] top.tb.dut.start_shift[1] top.tb.dut.start_shift[0]
 @200
 -stage1
 @22
@@ -57,5 +62,7 @@ top.tb.dut.i_nrst_sync
 -output
 @22
 #{top.tb.result[17:0]} top.tb.result[17] top.tb.result[16] top.tb.result[15] top.tb.result[14] top.tb.result[13] top.tb.result[12] top.tb.result[11] top.tb.result[10] top.tb.result[9] top.tb.result[8] top.tb.result[7] top.tb.result[6] top.tb.result[5] top.tb.result[4] top.tb.result[3] top.tb.result[2] top.tb.result[1] top.tb.result[0]
+@29
+top.tb.dut.o_valid
 [pattern_trace] 1
 [pattern_trace] 0

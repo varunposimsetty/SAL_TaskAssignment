@@ -11,9 +11,11 @@ end entity;
 architecture sim of tb is
     signal clk    : std_ulogic := '0';
     signal rst    : std_ulogic := '0';
+    signal start  : std_ulogic := '0';
     signal vecA   : tvector(0 to 3)(7 downto 0) := (others => (others => '0'));
     signal vecB   : tvector(0 to 3)(7 downto 0) := (others => (others => '0'));
     signal result : signed(17 downto 0);
+    signal valid  : std_ulogic;
 
 begin
 
@@ -25,9 +27,11 @@ begin
     port map (
       i_clk       => clk,
       i_nrst_sync => rst,
+      i_start     => start,
       i_vecA      => vecA,
       i_vecB      => vecB,
-      o_result    => result
+      o_result    => result,
+      o_valid     => valid
     );
 
     proc_clk : process is 
@@ -40,6 +44,9 @@ begin
     begin 
         wait for 10 ns;
         rst <= '1';
+        wait for 30 ns;
+        start <='1';
+        wait for 13 ns;
         vecA(0) <= x"01";
         wait for 10 ns;
         vecB(0) <= x"01";
