@@ -30,8 +30,12 @@ architecture RTL of TopModule is
     signal vecB : tvector(0 to LENGTH-1)(DATA_WIDTH-1 downto 0) := (others => (others => '0'));
     signal result : signed((2*DATA_WIDTH + ceil_log2(LENGTH))-1 downto 0) := (others => '0');
 
+    type tmacunit_state is (IDLE,RUNNING);
+    signal mac_status : tmacunit_state := IDLE;
+
     signal start : std_ulogic := '0';
     signal valid : std_ulogic := '0';
+    signal pipe_busy : std_ulogic_vector(2 downto 0) := (others => '0');
 
 
 begin 
@@ -39,7 +43,7 @@ begin
     MAC_UNIT : entity work.mac_unit(RTL)
         generic map(
             DATA_WIDTH => DATA_WIDTH,
-            LENGTH     => LENGTH,
+            LENGTH     => LENGTH
         )
         port map(
             i_clk       => i_clk,
@@ -83,13 +87,34 @@ begin
         if(rising_edge(i_clk)) then 
             if(i_nrst = '0') then 
                 start <= '0';
+                mac_status <= IDLE;
+                pipe_busy <= (others => '0');
             else 
-                if(i_instruction = "11") then 
-                    -- COMPUTE
-                    start <= '1';
-                else 
-                    start <= '0';
-                end if;
+                case(mac_status) is 
+                    when IDLE => 
+                        if(i_instruction = "11") then 
+                            start <= '1';
+                            mac_status <= RUNNING;
+                        else 
+                            start <= '0';
+                            mac_status <= IDLE;
+                        end if;
+                    when RUNNING => 
+                        if(i_instruction = "11") then 
+                            start <= '1';
+                            mac_status <= RUNNING;
+                        else 
+                            start <= '0';
+                            if(pipe_busy = "000") then 
+                                mac_status <= IDLE;
+                            else 
+                                mac_status <= RUNNING;
+                            end if;
+                        end if;
+                    when others => 
+                        null;
+                end case;
+                pipe_busy <= pipe_busy(1 downto 0) & start;
             end if;
         end if;
     end process proc_control;

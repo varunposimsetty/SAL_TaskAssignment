@@ -65,6 +65,10 @@ begin
         wait for 20 ns;
         vecB(2) <= x"FF";
         wait for 30 ns;
+        start <= '0';
+        wait for 50 ns;
+        start <= '1';
+        wait for 30 ns;
         vecA(3) <= x"E0";
         wait for 20 ns;
         vecB(3) <= x"80";
