@@ -37,7 +37,6 @@ architecture RTL of TopModule is
     signal valid : std_ulogic := '0';
     signal pipe_busy : std_ulogic_vector(2 downto 0) := (others => '0');
 
-
 begin 
 
     MAC_UNIT : entity work.mac_unit(RTL)
@@ -61,16 +60,23 @@ begin
         if(rising_edge(i_clk)) then 
             if(i_nrst = '0') then 
                 MemReg <= (others => (others => '0'));
+                o_rd_data <= (others =>'0');
             else
-                if(i_instruction = "10" and i_address /= "11") then 
+                -- WRITE Instruction
+                if(i_instruction = "10" and (i_address /= "11" and i_address /= "00")) then 
                     MemReg(to_integer(unsigned(i_address))) <= i_wr_data;
                 end if;
-                if(i_instruction = "01" and i_address = "11") then 
+                -- READ Instruction
+                if(i_instruction = "01") then 
                     o_rd_data <= MemReg(to_integer(unsigned(i_address))); 
                 end if;
                 if(valid = '1') then 
                     MemReg(3) <= std_ulogic_vector(resize(result, MEM_WIDTH));
                 end if;
+                -- Status Memory Register 
+                MemReg(0)(0) <= '1' when mac_status = RUNNING else '0';
+                MemReg(0)(1) <= valid;
+                MemReg(0)(4 downto 2) <= pipe_busy;
             end if;
         end if;
     end process proc_mem;
@@ -83,6 +89,7 @@ begin
 
     -- Control 
     proc_control : process(i_clk)
+    --variable pipe_busy : std_ulogic_vector(2 downto 0) := (others => '0');
     begin 
         if(rising_edge(i_clk)) then 
             if(i_nrst = '0') then 
