@@ -10,6 +10,7 @@ mkdir -p $WORK_DIR
 ghdl -i $STD --workdir=$WORK_DIR ../global/TaskGlobalPackage.vhd
 ghdl -i $STD --workdir=$WORK_DIR ../src/mac_unit.vhd
 ghdl -i $STD --workdir=$WORK_DIR ../src/register_map.vhd
+ghdl -i $STD --workdir=$WORK_DIR ../src/register_map_stalled.vhd
 ghdl -i $STD --workdir=$WORK_DIR ./tb_register_map.vhd
 
 # building simulation files
