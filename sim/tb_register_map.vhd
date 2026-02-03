@@ -18,7 +18,7 @@ architecture sim of tb_top is
 
     begin 
 
-    DUT : entity work.TopModule(RTL)
+    DUT : entity work.TopModuleStalled(RTL)
         generic map(
         DATA_WIDTH => 8,
         LENGTH     => 4,

@@ -15,3 +15,9 @@
 
 ### macOS metadata files
 *.DS_Store
+
+### simulation files from Verilator
+obj_dir/
+
+### Value Change Dump File
+*.vcd

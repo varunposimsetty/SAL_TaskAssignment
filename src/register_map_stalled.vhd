@@ -76,11 +76,13 @@ begin
                 end if;
                 -- Status Memory Register 
                 MemReg(0)(0) <= '1' when mac_status /= IDLE else '0';
-                MemReg(0)(1) <= '1' when (mac_status = DONE or mac_status = WRITEBACK) else '0';
+                MemReg(0)(1) <= '1' when (mac_status = DONE) else '0';
                 -- Mapping the register data to the MAC Unit
                 vectors_loop : for u in 0 to LENGTH-1 loop
-                    vecA(u) <= signed(MemReg(1)((8*(u+1))-1 downto 8*u));
-                    vecB(u) <= signed(MemReg(2)((8*(u+1))-1 downto 8*u));
+                    if(mac_status = VEC_LOAD) then
+                        vecA(u) <= signed(MemReg(1)((8*(u+1))-1 downto 8*u));
+                        vecB(u) <= signed(MemReg(2)((8*(u+1))-1 downto 8*u));
+                    end if;
                 end loop vectors_loop;
             end if;
         end if;
@@ -93,6 +95,7 @@ begin
             if(i_nrst = '0') then 
                 start <= '0';
                 mac_status <= IDLE;
+                wr_back <= '0';
             else 
                 case(mac_status) is 
                     when IDLE => 
