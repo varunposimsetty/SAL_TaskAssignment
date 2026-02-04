@@ -35,6 +35,15 @@ sv_port/sim/work/_vmake
 
 
 venv/
+
 *.pyc
+
 __pycache__/
+
+*.xml
+
+*.log
+
+vhdl_impl/cocotb_tests/sim_build
+
 
