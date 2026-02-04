@@ -6,8 +6,8 @@ module mac_unit #(
     input  logic i_clk,
     input  logic i_nrst_sync,
     input  logic i_start,
-    input  logic signed [DATA_WIDTH-1:0] i_vecA [LENGTH],
-    input  logic signed [DATA_WIDTH-1:0] i_vecB [LENGTH],
+    input  var logic signed [DATA_WIDTH-1:0] i_vecA [LENGTH],
+    input  var logic signed [DATA_WIDTH-1:0] i_vecB [LENGTH],
     output logic signed [(2*DATA_WIDTH + $clog2(LENGTH))-1:0] o_result,
     output logic o_valid
 );

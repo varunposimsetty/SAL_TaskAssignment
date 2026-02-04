@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.118 (w)1999-2023 BSI
+[*] Wed Feb 04 08:36:19 2026
+[*]
+[dumpfile] "C:\Users\Posimsetty\Desktop\SAL_TaskAssignment\sv_port\sim\work\dump.vcd"
+[savefile] "C:\Users\Posimsetty\Desktop\SAL_TaskAssignment\sv_port\sim\work\result.gtkw"
+[timestart] 0
+[size] 2560 1369
+[pos] 2421 -139
+*-15.649839 345000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_top.
+[treeopen] tb_top.DUT.
+[sst_width] 174
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 427
+@28
+tb_top.DUT.i_clk
+tb_top.DUT.i_nrst
+#{tb_top.DUT.i_instruction[1:0]} tb_top.DUT.i_instruction[1] tb_top.DUT.i_instruction[0]
+#{tb_top.DUT.i_address[1:0]} tb_top.DUT.i_address[1] tb_top.DUT.i_address[0]
+@22
+#{tb_top.DUT.i_wr_data[31:0]} tb_top.DUT.i_wr_data[31] tb_top.DUT.i_wr_data[30] tb_top.DUT.i_wr_data[29] tb_top.DUT.i_wr_data[28] tb_top.DUT.i_wr_data[27] tb_top.DUT.i_wr_data[26] tb_top.DUT.i_wr_data[25] tb_top.DUT.i_wr_data[24] tb_top.DUT.i_wr_data[23] tb_top.DUT.i_wr_data[22] tb_top.DUT.i_wr_data[21] tb_top.DUT.i_wr_data[20] tb_top.DUT.i_wr_data[19] tb_top.DUT.i_wr_data[18] tb_top.DUT.i_wr_data[17] tb_top.DUT.i_wr_data[16] tb_top.DUT.i_wr_data[15] tb_top.DUT.i_wr_data[14] tb_top.DUT.i_wr_data[13] tb_top.DUT.i_wr_data[12] tb_top.DUT.i_wr_data[11] tb_top.DUT.i_wr_data[10] tb_top.DUT.i_wr_data[9] tb_top.DUT.i_wr_data[8] tb_top.DUT.i_wr_data[7] tb_top.DUT.i_wr_data[6] tb_top.DUT.i_wr_data[5] tb_top.DUT.i_wr_data[4] tb_top.DUT.i_wr_data[3] tb_top.DUT.i_wr_data[2] tb_top.DUT.i_wr_data[1] tb_top.DUT.i_wr_data[0]
+@200
+-
+-
+@22
+tb_top.DUT.o_rd_data[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

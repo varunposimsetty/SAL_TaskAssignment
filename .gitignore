@@ -21,3 +21,20 @@ obj_dir/
 
 ### Value Change Dump File
 *.vcd
+
+*.cfg
+
+*.ini
+
+sv_port/sim/transcript
+sv_port/sim/work/_info
+sv_port/sim/work/_vmake
+*.qdb
+*.qtl
+*.qpg
+
+
+venv/
+*.pyc
+__pycache__/
+
