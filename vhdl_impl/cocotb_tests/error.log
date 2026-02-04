@@ -1,0 +1,19 @@
+unknown option '--version'
+/Library/Developer/CommandLineTools/usr/bin/make sim TOPLEVEL=mac_unit COCOTB_TEST_MODULE=test_mac_unit
+unknown option '--version'
+rm -f results.xml
+"/Library/Developer/CommandLineTools/usr/bin/make" -f Makefile results.xml
+unknown option '--version'
+mkdir -p sim_build
+\
+	/opt/homebrew/bin/ghdl -i   --std=08 --workdir=sim_build --work=work /Users/varunposimsetty/Desktop/SAL_TaskAssignment/vhdl_impl/cocotb_tests/../global/TaskGlobalPackage.vhd /Users/varunposimsetty/Desktop/SAL_TaskAssignment/vhdl_impl/cocotb_tests/../src/mac_unit.vhd /Users/varunposimsetty/Desktop/SAL_TaskAssignment/vhdl_impl/cocotb_tests/../src/register_map.vhd /Users/varunposimsetty/Desktop/SAL_TaskAssignment/vhdl_impl/cocotb_tests/../src/register_map_stalled.vhd && \
+	/opt/homebrew/bin/ghdl -m   --std=08 --workdir=sim_build -Psim_build --work=work mac_unit 
+unknown option '-i'
+unknown option '-m'
+rm -f results.xml
+COCOTB_TEST_MODULES= COCOTB_TESTCASE= COCOTB_TEST_FILTER= COCOTB_TOPLEVEL=mac_unit TOPLEVEL_LANG=vhdl \
+	 /opt/homebrew/bin/ghdl -r    --workdir=sim_build -Psim_build --work=work mac_unit  --vpi=/Users/varunposimsetty/Desktop/SAL_TaskAssignment/vhdl_impl/venv/lib/python3.9/site-packages/cocotb/libs/libcocotbvpi_ghdl.so --wave=waveform.ghw  
+unknown option '-r'
+make[2]: *** [results.xml] Error 1
+make[1]: *** [sim] Error 2
+make: *** [mac] Error 2
