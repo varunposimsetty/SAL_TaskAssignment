@@ -1,0 +1,31 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Feb  5 12:42:45 2026
+| Host         : ISCN5CG2381TGX running 64-bit major release  (build 9200)
+| Command      : report_utilization -file C:/Users/Posimsetty/Desktop/SAL_TaskAssignment/reports/impl_utilization.txt -hierarchical
+| Design       : TopModule
+| Device       : xa7a12tcpg238-1I
+| Speed File   : -1I
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++---------------+----------+------------+------------+---------+------+-----+--------+--------+------------+
+|    Instance   |  Module  | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++---------------+----------+------------+------------+---------+------+-----+--------+--------+------------+
+| TopModule     |    (top) |        330 |        330 |       0 |    0 | 237 |      0 |      0 |          0 |
+|   (TopModule) |    (top) |         36 |         36 |       0 |    0 | 121 |      0 |      0 |          0 |
+|   MAC_UNIT    | mac_unit |        294 |        294 |       0 |    0 | 116 |      0 |      0 |          0 |
++---------------+----------+------------+------------+---------+------+-----+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+
