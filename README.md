@@ -1,6 +1,6 @@
 # SAL_TaskAssignment
 
-This repository contains the **implementation, verification, synthesis, and implementation results** of the hardware design tasks assigned as part of the **SAL technical assignment**.
+This repository contains the **RTL-implementation, verification, synthesis, and implementation results** of the hardware design tasks assigned as part of the **SAL technical assignment**.
 
 The work focuses on a **parametric, pipelined INT8 MAC unit** and its integration using two different system-level control approaches:
 - a **stalled (FSM-based) approach**
