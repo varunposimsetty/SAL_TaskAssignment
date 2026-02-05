@@ -1,0 +1,45 @@
+[*]
+[*] GTKWave Analyzer v3.3.124 (w)1999-2025 BSI
+[*] Thu Feb  5 09:04:18 2026
+[*]
+[dumpfile] "/Users/varunposimsetty/Desktop/SAL_TaskAssignment/vhdl_impl/cocotb_tests/waveform.ghw"
+[dumpfile_mtime] "Thu Feb  5 08:59:21 2026"
+[dumpfile_size] 3381
+[savefile] "/Users/varunposimsetty/Desktop/SAL_TaskAssignment/vhdl_impl/cocotb_tests/top_module.gtkw"
+[timestart] 283800
+[size] 1472 920
+[pos] -1 -2
+*-15.781472 442700 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.topmodule.
+[sst_width] 255
+[signals_width] 177
+[sst_expanded] 1
+[sst_vpaned_height] 269
+@28
+top.topmodule.i_clk
+top.topmodule.i_nrst
+@420
+top.topmodule.mac_status
+@28
+top.topmodule.start
+#{top.topmodule.i_instruction[1:0]} top.topmodule.i_instruction[1] top.topmodule.i_instruction[0]
+#{top.topmodule.i_address[1:0]} top.topmodule.i_address[1] top.topmodule.i_address[0]
+@22
+#{top.topmodule.i_wr_data[31:0]} top.topmodule.i_wr_data[31] top.topmodule.i_wr_data[30] top.topmodule.i_wr_data[29] top.topmodule.i_wr_data[28] top.topmodule.i_wr_data[27] top.topmodule.i_wr_data[26] top.topmodule.i_wr_data[25] top.topmodule.i_wr_data[24] top.topmodule.i_wr_data[23] top.topmodule.i_wr_data[22] top.topmodule.i_wr_data[21] top.topmodule.i_wr_data[20] top.topmodule.i_wr_data[19] top.topmodule.i_wr_data[18] top.topmodule.i_wr_data[17] top.topmodule.i_wr_data[16] top.topmodule.i_wr_data[15] top.topmodule.i_wr_data[14] top.topmodule.i_wr_data[13] top.topmodule.i_wr_data[12] top.topmodule.i_wr_data[11] top.topmodule.i_wr_data[10] top.topmodule.i_wr_data[9] top.topmodule.i_wr_data[8] top.topmodule.i_wr_data[7] top.topmodule.i_wr_data[6] top.topmodule.i_wr_data[5] top.topmodule.i_wr_data[4] top.topmodule.i_wr_data[3] top.topmodule.i_wr_data[2] top.topmodule.i_wr_data[1] top.topmodule.i_wr_data[0]
+#{top.topmodule.o_rd_data[31:0]} top.topmodule.o_rd_data[31] top.topmodule.o_rd_data[30] top.topmodule.o_rd_data[29] top.topmodule.o_rd_data[28] top.topmodule.o_rd_data[27] top.topmodule.o_rd_data[26] top.topmodule.o_rd_data[25] top.topmodule.o_rd_data[24] top.topmodule.o_rd_data[23] top.topmodule.o_rd_data[22] top.topmodule.o_rd_data[21] top.topmodule.o_rd_data[20] top.topmodule.o_rd_data[19] top.topmodule.o_rd_data[18] top.topmodule.o_rd_data[17] top.topmodule.o_rd_data[16] top.topmodule.o_rd_data[15] top.topmodule.o_rd_data[14] top.topmodule.o_rd_data[13] top.topmodule.o_rd_data[12] top.topmodule.o_rd_data[11] top.topmodule.o_rd_data[10] top.topmodule.o_rd_data[9] top.topmodule.o_rd_data[8] top.topmodule.o_rd_data[7] top.topmodule.o_rd_data[6] top.topmodule.o_rd_data[5] top.topmodule.o_rd_data[4] top.topmodule.o_rd_data[3] top.topmodule.o_rd_data[2] top.topmodule.o_rd_data[1] top.topmodule.o_rd_data[0]
+#{top.topmodule.memreg[0][31:0]} top.topmodule.memreg[0][31] top.topmodule.memreg[0][30] top.topmodule.memreg[0][29] top.topmodule.memreg[0][28] top.topmodule.memreg[0][27] top.topmodule.memreg[0][26] top.topmodule.memreg[0][25] top.topmodule.memreg[0][24] top.topmodule.memreg[0][23] top.topmodule.memreg[0][22] top.topmodule.memreg[0][21] top.topmodule.memreg[0][20] top.topmodule.memreg[0][19] top.topmodule.memreg[0][18] top.topmodule.memreg[0][17] top.topmodule.memreg[0][16] top.topmodule.memreg[0][15] top.topmodule.memreg[0][14] top.topmodule.memreg[0][13] top.topmodule.memreg[0][12] top.topmodule.memreg[0][11] top.topmodule.memreg[0][10] top.topmodule.memreg[0][9] top.topmodule.memreg[0][8] top.topmodule.memreg[0][7] top.topmodule.memreg[0][6] top.topmodule.memreg[0][5] top.topmodule.memreg[0][4] top.topmodule.memreg[0][3] top.topmodule.memreg[0][2] top.topmodule.memreg[0][1] top.topmodule.memreg[0][0]
+#{top.topmodule.memreg[1][31:0]} top.topmodule.memreg[1][31] top.topmodule.memreg[1][30] top.topmodule.memreg[1][29] top.topmodule.memreg[1][28] top.topmodule.memreg[1][27] top.topmodule.memreg[1][26] top.topmodule.memreg[1][25] top.topmodule.memreg[1][24] top.topmodule.memreg[1][23] top.topmodule.memreg[1][22] top.topmodule.memreg[1][21] top.topmodule.memreg[1][20] top.topmodule.memreg[1][19] top.topmodule.memreg[1][18] top.topmodule.memreg[1][17] top.topmodule.memreg[1][16] top.topmodule.memreg[1][15] top.topmodule.memreg[1][14] top.topmodule.memreg[1][13] top.topmodule.memreg[1][12] top.topmodule.memreg[1][11] top.topmodule.memreg[1][10] top.topmodule.memreg[1][9] top.topmodule.memreg[1][8] top.topmodule.memreg[1][7] top.topmodule.memreg[1][6] top.topmodule.memreg[1][5] top.topmodule.memreg[1][4] top.topmodule.memreg[1][3] top.topmodule.memreg[1][2] top.topmodule.memreg[1][1] top.topmodule.memreg[1][0]
+#{top.topmodule.memreg[2][31:0]} top.topmodule.memreg[2][31] top.topmodule.memreg[2][30] top.topmodule.memreg[2][29] top.topmodule.memreg[2][28] top.topmodule.memreg[2][27] top.topmodule.memreg[2][26] top.topmodule.memreg[2][25] top.topmodule.memreg[2][24] top.topmodule.memreg[2][23] top.topmodule.memreg[2][22] top.topmodule.memreg[2][21] top.topmodule.memreg[2][20] top.topmodule.memreg[2][19] top.topmodule.memreg[2][18] top.topmodule.memreg[2][17] top.topmodule.memreg[2][16] top.topmodule.memreg[2][15] top.topmodule.memreg[2][14] top.topmodule.memreg[2][13] top.topmodule.memreg[2][12] top.topmodule.memreg[2][11] top.topmodule.memreg[2][10] top.topmodule.memreg[2][9] top.topmodule.memreg[2][8] top.topmodule.memreg[2][7] top.topmodule.memreg[2][6] top.topmodule.memreg[2][5] top.topmodule.memreg[2][4] top.topmodule.memreg[2][3] top.topmodule.memreg[2][2] top.topmodule.memreg[2][1] top.topmodule.memreg[2][0]
+#{top.topmodule.memreg[3][31:0]} top.topmodule.memreg[3][31] top.topmodule.memreg[3][30] top.topmodule.memreg[3][29] top.topmodule.memreg[3][28] top.topmodule.memreg[3][27] top.topmodule.memreg[3][26] top.topmodule.memreg[3][25] top.topmodule.memreg[3][24] top.topmodule.memreg[3][23] top.topmodule.memreg[3][22] top.topmodule.memreg[3][21] top.topmodule.memreg[3][20] top.topmodule.memreg[3][19] top.topmodule.memreg[3][18] top.topmodule.memreg[3][17] top.topmodule.memreg[3][16] top.topmodule.memreg[3][15] top.topmodule.memreg[3][14] top.topmodule.memreg[3][13] top.topmodule.memreg[3][12] top.topmodule.memreg[3][11] top.topmodule.memreg[3][10] top.topmodule.memreg[3][9] top.topmodule.memreg[3][8] top.topmodule.memreg[3][7] top.topmodule.memreg[3][6] top.topmodule.memreg[3][5] top.topmodule.memreg[3][4] top.topmodule.memreg[3][3] top.topmodule.memreg[3][2] top.topmodule.memreg[3][1] top.topmodule.memreg[3][0]
+#{top.topmodule.veca[0][7:0]} top.topmodule.veca[0][7] top.topmodule.veca[0][6] top.topmodule.veca[0][5] top.topmodule.veca[0][4] top.topmodule.veca[0][3] top.topmodule.veca[0][2] top.topmodule.veca[0][1] top.topmodule.veca[0][0]
+#{top.topmodule.veca[1][7:0]} top.topmodule.veca[1][7] top.topmodule.veca[1][6] top.topmodule.veca[1][5] top.topmodule.veca[1][4] top.topmodule.veca[1][3] top.topmodule.veca[1][2] top.topmodule.veca[1][1] top.topmodule.veca[1][0]
+#{top.topmodule.veca[2][7:0]} top.topmodule.veca[2][7] top.topmodule.veca[2][6] top.topmodule.veca[2][5] top.topmodule.veca[2][4] top.topmodule.veca[2][3] top.topmodule.veca[2][2] top.topmodule.veca[2][1] top.topmodule.veca[2][0]
+#{top.topmodule.veca[3][7:0]} top.topmodule.veca[3][7] top.topmodule.veca[3][6] top.topmodule.veca[3][5] top.topmodule.veca[3][4] top.topmodule.veca[3][3] top.topmodule.veca[3][2] top.topmodule.veca[3][1] top.topmodule.veca[3][0]
+#{top.topmodule.vecb[0][7:0]} top.topmodule.vecb[0][7] top.topmodule.vecb[0][6] top.topmodule.vecb[0][5] top.topmodule.vecb[0][4] top.topmodule.vecb[0][3] top.topmodule.vecb[0][2] top.topmodule.vecb[0][1] top.topmodule.vecb[0][0]
+#{top.topmodule.vecb[1][7:0]} top.topmodule.vecb[1][7] top.topmodule.vecb[1][6] top.topmodule.vecb[1][5] top.topmodule.vecb[1][4] top.topmodule.vecb[1][3] top.topmodule.vecb[1][2] top.topmodule.vecb[1][1] top.topmodule.vecb[1][0]
+#{top.topmodule.vecb[2][7:0]} top.topmodule.vecb[2][7] top.topmodule.vecb[2][6] top.topmodule.vecb[2][5] top.topmodule.vecb[2][4] top.topmodule.vecb[2][3] top.topmodule.vecb[2][2] top.topmodule.vecb[2][1] top.topmodule.vecb[2][0]
+#{top.topmodule.vecb[3][7:0]} top.topmodule.vecb[3][7] top.topmodule.vecb[3][6] top.topmodule.vecb[3][5] top.topmodule.vecb[3][4] top.topmodule.vecb[3][3] top.topmodule.vecb[3][2] top.topmodule.vecb[3][1] top.topmodule.vecb[3][0]
+#{top.topmodule.result[17:0]} top.topmodule.result[17] top.topmodule.result[16] top.topmodule.result[15] top.topmodule.result[14] top.topmodule.result[13] top.topmodule.result[12] top.topmodule.result[11] top.topmodule.result[10] top.topmodule.result[9] top.topmodule.result[8] top.topmodule.result[7] top.topmodule.result[6] top.topmodule.result[5] top.topmodule.result[4] top.topmodule.result[3] top.topmodule.result[2] top.topmodule.result[1] top.topmodule.result[0]
+[pattern_trace] 1
+[pattern_trace] 0

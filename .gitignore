@@ -32,6 +32,7 @@ sv_port/sim/work/_vmake
 *.qdb
 *.qtl
 *.qpg
+*.log
 
 
 venv/

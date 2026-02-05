@@ -1,7 +1,11 @@
 SIM = ghdl
 TOPLEVEL_LANG = vhdl
-TOPLEVEL = mac_unit_wrapper
-COCOTB_TEST_MODULES = test_mac_unit_wrapper
+#TOPLEVEL = mac_unit_wrapper
+#COCOTB_TEST_MODULES = test_mac_unit_wrapper
+TOPLEVEL = topmodule
+COCOTB_TEST_MODULES = test_top_module
+SIM_ARGS = --wave=waveform.ghw
+GTKW_SAVE = top_module.gtkw
 
 # Force use of Intel GHDL
 GHDL_BIN_DIR = /Users/varunposimsetty/Downloads/ghdl-mcode-5.1.1-macos13-x86_64/bin
@@ -18,7 +22,7 @@ SIM_ARGS = --wave=waveform.ghw
 include $(shell cocotb-config --makefiles)/Makefile.sim
 
 view:
-	gtkwave mac_unit.gtkw &
+	gtkwave waveform.ghw $(GTKW_SAVE) &
 run:
 	$(MAKE)
 	$(MAKE) view

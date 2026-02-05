@@ -3,7 +3,6 @@ from cocotb.clock import Clock
 from cocotb.triggers import RisingEdge, ClockCycles
 from cocotb.types import LogicArray, Range
 from collections import deque
-import random
 
 DATA_WIDTH = 8
 LENGTH = 4
