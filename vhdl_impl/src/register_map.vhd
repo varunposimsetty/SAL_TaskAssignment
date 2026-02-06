@@ -112,7 +112,7 @@ begin
                             mac_status <= RUNNING;
                         else 
                             start <= '0';
-                            if(pipe_busy = "000") then 
+                            if(pipe_busy = "100") then 
                                 mac_status <= IDLE;
                             else 
                                 mac_status <= RUNNING;

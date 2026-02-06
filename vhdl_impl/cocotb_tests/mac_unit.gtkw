@@ -1,44 +1,68 @@
 [*]
 [*] GTKWave Analyzer v3.3.124 (w)1999-2025 BSI
-[*] Wed Feb  4 20:15:34 2026
+[*] Thu Feb  5 19:21:05 2026
 [*]
 [dumpfile] "/Users/varunposimsetty/Desktop/SAL_TaskAssignment/vhdl_impl/cocotb_tests/waveform.ghw"
-[dumpfile_mtime] "Wed Feb  4 19:55:06 2026"
-[dumpfile_size] 7084
+[dumpfile_mtime] "Thu Feb  5 19:14:40 2026"
+[dumpfile_size] 9614
 [savefile] "/Users/varunposimsetty/Desktop/SAL_TaskAssignment/vhdl_impl/cocotb_tests/mac_unit.gtkw"
 [timestart] 0
 [size] 1472 920
 [pos] -1 -2
-*-17.681559 1070004 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
-[treeopen] top.
+*-16.681559 68800 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] top.mac_unit_wrapper.
+[treeopen] top.mac_unit_wrapper.mac_inst.
 [treeopen] top.mac_unit_wrapper.mac_inst.prod_r.
-[sst_width] 255
-[signals_width] 152
-[sst_expanded] 1
-[sst_vpaned_height] 269
+[sst_width] 40
+[signals_width] 301
+[sst_expanded] 0
+[sst_vpaned_height] 303
+@200
+-MAC_UNIT
+-Inputs
 @28
 top.mac_unit_wrapper.i_clk
 top.mac_unit_wrapper.i_nrst_sync
 top.mac_unit_wrapper.i_start
-@22
+@200
+-vectorA
+@420
 #{top.mac_unit_wrapper.veca[0][7:0]} top.mac_unit_wrapper.veca[0][7] top.mac_unit_wrapper.veca[0][6] top.mac_unit_wrapper.veca[0][5] top.mac_unit_wrapper.veca[0][4] top.mac_unit_wrapper.veca[0][3] top.mac_unit_wrapper.veca[0][2] top.mac_unit_wrapper.veca[0][1] top.mac_unit_wrapper.veca[0][0]
 #{top.mac_unit_wrapper.veca[1][7:0]} top.mac_unit_wrapper.veca[1][7] top.mac_unit_wrapper.veca[1][6] top.mac_unit_wrapper.veca[1][5] top.mac_unit_wrapper.veca[1][4] top.mac_unit_wrapper.veca[1][3] top.mac_unit_wrapper.veca[1][2] top.mac_unit_wrapper.veca[1][1] top.mac_unit_wrapper.veca[1][0]
 #{top.mac_unit_wrapper.veca[2][7:0]} top.mac_unit_wrapper.veca[2][7] top.mac_unit_wrapper.veca[2][6] top.mac_unit_wrapper.veca[2][5] top.mac_unit_wrapper.veca[2][4] top.mac_unit_wrapper.veca[2][3] top.mac_unit_wrapper.veca[2][2] top.mac_unit_wrapper.veca[2][1] top.mac_unit_wrapper.veca[2][0]
 #{top.mac_unit_wrapper.veca[3][7:0]} top.mac_unit_wrapper.veca[3][7] top.mac_unit_wrapper.veca[3][6] top.mac_unit_wrapper.veca[3][5] top.mac_unit_wrapper.veca[3][4] top.mac_unit_wrapper.veca[3][3] top.mac_unit_wrapper.veca[3][2] top.mac_unit_wrapper.veca[3][1] top.mac_unit_wrapper.veca[3][0]
+@200
+-vectorB
+@420
 #{top.mac_unit_wrapper.vecb[0][7:0]} top.mac_unit_wrapper.vecb[0][7] top.mac_unit_wrapper.vecb[0][6] top.mac_unit_wrapper.vecb[0][5] top.mac_unit_wrapper.vecb[0][4] top.mac_unit_wrapper.vecb[0][3] top.mac_unit_wrapper.vecb[0][2] top.mac_unit_wrapper.vecb[0][1] top.mac_unit_wrapper.vecb[0][0]
 #{top.mac_unit_wrapper.vecb[1][7:0]} top.mac_unit_wrapper.vecb[1][7] top.mac_unit_wrapper.vecb[1][6] top.mac_unit_wrapper.vecb[1][5] top.mac_unit_wrapper.vecb[1][4] top.mac_unit_wrapper.vecb[1][3] top.mac_unit_wrapper.vecb[1][2] top.mac_unit_wrapper.vecb[1][1] top.mac_unit_wrapper.vecb[1][0]
 #{top.mac_unit_wrapper.vecb[2][7:0]} top.mac_unit_wrapper.vecb[2][7] top.mac_unit_wrapper.vecb[2][6] top.mac_unit_wrapper.vecb[2][5] top.mac_unit_wrapper.vecb[2][4] top.mac_unit_wrapper.vecb[2][3] top.mac_unit_wrapper.vecb[2][2] top.mac_unit_wrapper.vecb[2][1] top.mac_unit_wrapper.vecb[2][0]
 #{top.mac_unit_wrapper.vecb[3][7:0]} top.mac_unit_wrapper.vecb[3][7] top.mac_unit_wrapper.vecb[3][6] top.mac_unit_wrapper.vecb[3][5] top.mac_unit_wrapper.vecb[3][4] top.mac_unit_wrapper.vecb[3][3] top.mac_unit_wrapper.vecb[3][2] top.mac_unit_wrapper.vecb[3][1] top.mac_unit_wrapper.vecb[3][0]
+@200
+-shift_control
+@28
+#{top.mac_unit_wrapper.mac_inst.start_shift[2:0]} top.mac_unit_wrapper.mac_inst.start_shift[2] top.mac_unit_wrapper.mac_inst.start_shift[1] top.mac_unit_wrapper.mac_inst.start_shift[0]
+@200
+-stage_1 : Multiplication
+@420
 #{top.mac_unit_wrapper.mac_inst.prod_r[0][15:0]} top.mac_unit_wrapper.mac_inst.prod_r[0][15] top.mac_unit_wrapper.mac_inst.prod_r[0][14] top.mac_unit_wrapper.mac_inst.prod_r[0][13] top.mac_unit_wrapper.mac_inst.prod_r[0][12] top.mac_unit_wrapper.mac_inst.prod_r[0][11] top.mac_unit_wrapper.mac_inst.prod_r[0][10] top.mac_unit_wrapper.mac_inst.prod_r[0][9] top.mac_unit_wrapper.mac_inst.prod_r[0][8] top.mac_unit_wrapper.mac_inst.prod_r[0][7] top.mac_unit_wrapper.mac_inst.prod_r[0][6] top.mac_unit_wrapper.mac_inst.prod_r[0][5] top.mac_unit_wrapper.mac_inst.prod_r[0][4] top.mac_unit_wrapper.mac_inst.prod_r[0][3] top.mac_unit_wrapper.mac_inst.prod_r[0][2] top.mac_unit_wrapper.mac_inst.prod_r[0][1] top.mac_unit_wrapper.mac_inst.prod_r[0][0]
 #{top.mac_unit_wrapper.mac_inst.prod_r[1][15:0]} top.mac_unit_wrapper.mac_inst.prod_r[1][15] top.mac_unit_wrapper.mac_inst.prod_r[1][14] top.mac_unit_wrapper.mac_inst.prod_r[1][13] top.mac_unit_wrapper.mac_inst.prod_r[1][12] top.mac_unit_wrapper.mac_inst.prod_r[1][11] top.mac_unit_wrapper.mac_inst.prod_r[1][10] top.mac_unit_wrapper.mac_inst.prod_r[1][9] top.mac_unit_wrapper.mac_inst.prod_r[1][8] top.mac_unit_wrapper.mac_inst.prod_r[1][7] top.mac_unit_wrapper.mac_inst.prod_r[1][6] top.mac_unit_wrapper.mac_inst.prod_r[1][5] top.mac_unit_wrapper.mac_inst.prod_r[1][4] top.mac_unit_wrapper.mac_inst.prod_r[1][3] top.mac_unit_wrapper.mac_inst.prod_r[1][2] top.mac_unit_wrapper.mac_inst.prod_r[1][1] top.mac_unit_wrapper.mac_inst.prod_r[1][0]
 #{top.mac_unit_wrapper.mac_inst.prod_r[2][15:0]} top.mac_unit_wrapper.mac_inst.prod_r[2][15] top.mac_unit_wrapper.mac_inst.prod_r[2][14] top.mac_unit_wrapper.mac_inst.prod_r[2][13] top.mac_unit_wrapper.mac_inst.prod_r[2][12] top.mac_unit_wrapper.mac_inst.prod_r[2][11] top.mac_unit_wrapper.mac_inst.prod_r[2][10] top.mac_unit_wrapper.mac_inst.prod_r[2][9] top.mac_unit_wrapper.mac_inst.prod_r[2][8] top.mac_unit_wrapper.mac_inst.prod_r[2][7] top.mac_unit_wrapper.mac_inst.prod_r[2][6] top.mac_unit_wrapper.mac_inst.prod_r[2][5] top.mac_unit_wrapper.mac_inst.prod_r[2][4] top.mac_unit_wrapper.mac_inst.prod_r[2][3] top.mac_unit_wrapper.mac_inst.prod_r[2][2] top.mac_unit_wrapper.mac_inst.prod_r[2][1] top.mac_unit_wrapper.mac_inst.prod_r[2][0]
 #{top.mac_unit_wrapper.mac_inst.prod_r[3][15:0]} top.mac_unit_wrapper.mac_inst.prod_r[3][15] top.mac_unit_wrapper.mac_inst.prod_r[3][14] top.mac_unit_wrapper.mac_inst.prod_r[3][13] top.mac_unit_wrapper.mac_inst.prod_r[3][12] top.mac_unit_wrapper.mac_inst.prod_r[3][11] top.mac_unit_wrapper.mac_inst.prod_r[3][10] top.mac_unit_wrapper.mac_inst.prod_r[3][9] top.mac_unit_wrapper.mac_inst.prod_r[3][8] top.mac_unit_wrapper.mac_inst.prod_r[3][7] top.mac_unit_wrapper.mac_inst.prod_r[3][6] top.mac_unit_wrapper.mac_inst.prod_r[3][5] top.mac_unit_wrapper.mac_inst.prod_r[3][4] top.mac_unit_wrapper.mac_inst.prod_r[3][3] top.mac_unit_wrapper.mac_inst.prod_r[3][2] top.mac_unit_wrapper.mac_inst.prod_r[3][1] top.mac_unit_wrapper.mac_inst.prod_r[3][0]
+@200
+-stage_2 : Partial Sum
+@420
 #{top.mac_unit_wrapper.mac_inst.sum_r[0][16:0]} top.mac_unit_wrapper.mac_inst.sum_r[0][16] top.mac_unit_wrapper.mac_inst.sum_r[0][15] top.mac_unit_wrapper.mac_inst.sum_r[0][14] top.mac_unit_wrapper.mac_inst.sum_r[0][13] top.mac_unit_wrapper.mac_inst.sum_r[0][12] top.mac_unit_wrapper.mac_inst.sum_r[0][11] top.mac_unit_wrapper.mac_inst.sum_r[0][10] top.mac_unit_wrapper.mac_inst.sum_r[0][9] top.mac_unit_wrapper.mac_inst.sum_r[0][8] top.mac_unit_wrapper.mac_inst.sum_r[0][7] top.mac_unit_wrapper.mac_inst.sum_r[0][6] top.mac_unit_wrapper.mac_inst.sum_r[0][5] top.mac_unit_wrapper.mac_inst.sum_r[0][4] top.mac_unit_wrapper.mac_inst.sum_r[0][3] top.mac_unit_wrapper.mac_inst.sum_r[0][2] top.mac_unit_wrapper.mac_inst.sum_r[0][1] top.mac_unit_wrapper.mac_inst.sum_r[0][0]
 #{top.mac_unit_wrapper.mac_inst.sum_r[1][16:0]} top.mac_unit_wrapper.mac_inst.sum_r[1][16] top.mac_unit_wrapper.mac_inst.sum_r[1][15] top.mac_unit_wrapper.mac_inst.sum_r[1][14] top.mac_unit_wrapper.mac_inst.sum_r[1][13] top.mac_unit_wrapper.mac_inst.sum_r[1][12] top.mac_unit_wrapper.mac_inst.sum_r[1][11] top.mac_unit_wrapper.mac_inst.sum_r[1][10] top.mac_unit_wrapper.mac_inst.sum_r[1][9] top.mac_unit_wrapper.mac_inst.sum_r[1][8] top.mac_unit_wrapper.mac_inst.sum_r[1][7] top.mac_unit_wrapper.mac_inst.sum_r[1][6] top.mac_unit_wrapper.mac_inst.sum_r[1][5] top.mac_unit_wrapper.mac_inst.sum_r[1][4] top.mac_unit_wrapper.mac_inst.sum_r[1][3] top.mac_unit_wrapper.mac_inst.sum_r[1][2] top.mac_unit_wrapper.mac_inst.sum_r[1][1] top.mac_unit_wrapper.mac_inst.sum_r[1][0]
+@200
+-stage_3 : Final Sum
 @420
 #{top.mac_unit_wrapper.mac_inst.res_r[17:0]} top.mac_unit_wrapper.mac_inst.res_r[17] top.mac_unit_wrapper.mac_inst.res_r[16] top.mac_unit_wrapper.mac_inst.res_r[15] top.mac_unit_wrapper.mac_inst.res_r[14] top.mac_unit_wrapper.mac_inst.res_r[13] top.mac_unit_wrapper.mac_inst.res_r[12] top.mac_unit_wrapper.mac_inst.res_r[11] top.mac_unit_wrapper.mac_inst.res_r[10] top.mac_unit_wrapper.mac_inst.res_r[9] top.mac_unit_wrapper.mac_inst.res_r[8] top.mac_unit_wrapper.mac_inst.res_r[7] top.mac_unit_wrapper.mac_inst.res_r[6] top.mac_unit_wrapper.mac_inst.res_r[5] top.mac_unit_wrapper.mac_inst.res_r[4] top.mac_unit_wrapper.mac_inst.res_r[3] top.mac_unit_wrapper.mac_inst.res_r[2] top.mac_unit_wrapper.mac_inst.res_r[1] top.mac_unit_wrapper.mac_inst.res_r[0]
-@29
+@200
+-Output
+@22
+#{top.mac_unit_wrapper.mac_inst.o_result[17:0]} top.mac_unit_wrapper.mac_inst.o_result[17] top.mac_unit_wrapper.mac_inst.o_result[16] top.mac_unit_wrapper.mac_inst.o_result[15] top.mac_unit_wrapper.mac_inst.o_result[14] top.mac_unit_wrapper.mac_inst.o_result[13] top.mac_unit_wrapper.mac_inst.o_result[12] top.mac_unit_wrapper.mac_inst.o_result[11] top.mac_unit_wrapper.mac_inst.o_result[10] top.mac_unit_wrapper.mac_inst.o_result[9] top.mac_unit_wrapper.mac_inst.o_result[8] top.mac_unit_wrapper.mac_inst.o_result[7] top.mac_unit_wrapper.mac_inst.o_result[6] top.mac_unit_wrapper.mac_inst.o_result[5] top.mac_unit_wrapper.mac_inst.o_result[4] top.mac_unit_wrapper.mac_inst.o_result[3] top.mac_unit_wrapper.mac_inst.o_result[2] top.mac_unit_wrapper.mac_inst.o_result[1] top.mac_unit_wrapper.mac_inst.o_result[0]
+@28
 top.mac_unit_wrapper.mac_inst.o_valid
 [pattern_trace] 1
 [pattern_trace] 0

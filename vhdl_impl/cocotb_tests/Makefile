@@ -1,11 +1,12 @@
 SIM = ghdl
 TOPLEVEL_LANG = vhdl
-#TOPLEVEL = mac_unit_wrapper
-#COCOTB_TEST_MODULES = test_mac_unit_wrapper
-TOPLEVEL = topmodule
-COCOTB_TEST_MODULES = test_top_module
+TOPLEVEL = mac_unit_wrapper
+COCOTB_TEST_MODULES = test_mac_unit_wrapper
+#TOPLEVEL = topmodule
+#COCOTB_TEST_MODULES = test_top_module
 SIM_ARGS = --wave=waveform.ghw
-GTKW_SAVE = top_module.gtkw
+GTKW_SAVE = mac_unit.gtkw
+#GTKW_SAVE = top_module.gtkw
 
 # Force use of Intel GHDL
 GHDL_BIN_DIR = /Users/varunposimsetty/Downloads/ghdl-mcode-5.1.1-macos13-x86_64/bin
