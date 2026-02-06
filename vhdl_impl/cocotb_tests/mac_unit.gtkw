@@ -1,17 +1,19 @@
 [*]
 [*] GTKWave Analyzer v3.3.124 (w)1999-2025 BSI
-[*] Thu Feb  5 19:21:05 2026
+[*] Fri Feb  6 13:07:54 2026
 [*]
 [dumpfile] "/Users/varunposimsetty/Desktop/SAL_TaskAssignment/vhdl_impl/cocotb_tests/waveform.ghw"
-[dumpfile_mtime] "Thu Feb  5 19:14:40 2026"
-[dumpfile_size] 9614
+[dumpfile_mtime] "Fri Feb  6 07:28:47 2026"
+[dumpfile_size] 28488
 [savefile] "/Users/varunposimsetty/Desktop/SAL_TaskAssignment/vhdl_impl/cocotb_tests/mac_unit.gtkw"
-[timestart] 0
+[timestart] 294100
 [size] 1472 920
 [pos] -1 -2
-*-16.681559 68800 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
-[treeopen] top.mac_unit_wrapper.
-[treeopen] top.mac_unit_wrapper.mac_inst.
+*-16.681559 872700 320002 350002 470002 500002 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[markername] ASTART
+[markername] BDONE
+[markername] CSTART
+[markername] DDONE
 [treeopen] top.mac_unit_wrapper.mac_inst.prod_r.
 [sst_width] 40
 [signals_width] 301
@@ -60,7 +62,7 @@ top.mac_unit_wrapper.i_start
 #{top.mac_unit_wrapper.mac_inst.res_r[17:0]} top.mac_unit_wrapper.mac_inst.res_r[17] top.mac_unit_wrapper.mac_inst.res_r[16] top.mac_unit_wrapper.mac_inst.res_r[15] top.mac_unit_wrapper.mac_inst.res_r[14] top.mac_unit_wrapper.mac_inst.res_r[13] top.mac_unit_wrapper.mac_inst.res_r[12] top.mac_unit_wrapper.mac_inst.res_r[11] top.mac_unit_wrapper.mac_inst.res_r[10] top.mac_unit_wrapper.mac_inst.res_r[9] top.mac_unit_wrapper.mac_inst.res_r[8] top.mac_unit_wrapper.mac_inst.res_r[7] top.mac_unit_wrapper.mac_inst.res_r[6] top.mac_unit_wrapper.mac_inst.res_r[5] top.mac_unit_wrapper.mac_inst.res_r[4] top.mac_unit_wrapper.mac_inst.res_r[3] top.mac_unit_wrapper.mac_inst.res_r[2] top.mac_unit_wrapper.mac_inst.res_r[1] top.mac_unit_wrapper.mac_inst.res_r[0]
 @200
 -Output
-@22
+@420
 #{top.mac_unit_wrapper.mac_inst.o_result[17:0]} top.mac_unit_wrapper.mac_inst.o_result[17] top.mac_unit_wrapper.mac_inst.o_result[16] top.mac_unit_wrapper.mac_inst.o_result[15] top.mac_unit_wrapper.mac_inst.o_result[14] top.mac_unit_wrapper.mac_inst.o_result[13] top.mac_unit_wrapper.mac_inst.o_result[12] top.mac_unit_wrapper.mac_inst.o_result[11] top.mac_unit_wrapper.mac_inst.o_result[10] top.mac_unit_wrapper.mac_inst.o_result[9] top.mac_unit_wrapper.mac_inst.o_result[8] top.mac_unit_wrapper.mac_inst.o_result[7] top.mac_unit_wrapper.mac_inst.o_result[6] top.mac_unit_wrapper.mac_inst.o_result[5] top.mac_unit_wrapper.mac_inst.o_result[4] top.mac_unit_wrapper.mac_inst.o_result[3] top.mac_unit_wrapper.mac_inst.o_result[2] top.mac_unit_wrapper.mac_inst.o_result[1] top.mac_unit_wrapper.mac_inst.o_result[0]
 @28
 top.mac_unit_wrapper.mac_inst.o_valid

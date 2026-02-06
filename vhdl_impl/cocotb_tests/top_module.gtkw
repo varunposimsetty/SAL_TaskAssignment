@@ -1,6 +1,6 @@
 [*]
 [*] GTKWave Analyzer v3.3.124 (w)1999-2025 BSI
-[*] Fri Feb  6 07:31:07 2026
+[*] Fri Feb  6 13:08:02 2026
 [*]
 [dumpfile] "/Users/varunposimsetty/Desktop/SAL_TaskAssignment/vhdl_impl/cocotb_tests/waveform.ghw"
 [dumpfile_mtime] "Fri Feb  6 07:28:47 2026"
@@ -9,7 +9,11 @@
 [timestart] 5664800
 [size] 1472 920
 [pos] -1 -2
-*-16.262064 5982300 5720006 5770006 5870006 5920006 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-16.262064 6089100 5720006 5770006 5870006 5920006 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[markername] ACOMPUTE_START
+[markername] BDONE
+[markername] CCOMPUTE_START
+[markername] DDONE
 [treeopen] top.
 [treeopen] top.topmodule.
 [treeopen] top.topmodule.mac_unit.
@@ -59,7 +63,7 @@ top.topmodule.mac_status
 #{top.topmodule.vecb[3][7:0]} top.topmodule.vecb[3][7] top.topmodule.vecb[3][6] top.topmodule.vecb[3][5] top.topmodule.vecb[3][4] top.topmodule.vecb[3][3] top.topmodule.vecb[3][2] top.topmodule.vecb[3][1] top.topmodule.vecb[3][0]
 @200
 -Result
-@23
+@22
 #{top.topmodule.result[17:0]} top.topmodule.result[17] top.topmodule.result[16] top.topmodule.result[15] top.topmodule.result[14] top.topmodule.result[13] top.topmodule.result[12] top.topmodule.result[11] top.topmodule.result[10] top.topmodule.result[9] top.topmodule.result[8] top.topmodule.result[7] top.topmodule.result[6] top.topmodule.result[5] top.topmodule.result[4] top.topmodule.result[3] top.topmodule.result[2] top.topmodule.result[1] top.topmodule.result[0]
 @200
 -Output
