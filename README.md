@@ -119,7 +119,8 @@ SAL_TaskAssignment/
 │
 ├── doc/
 │ ├── Freiberger - Task Assignment Combined.docx
-│ └── RegisterMapping.xlsx
+│ ├── RegisterMapping.xlsx
+| └── Varun_Posimsetty_SAL_Presentation.pptx
 │
 ├── reports_stream/
 │ ├── synth_drc.txt
